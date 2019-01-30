@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>添加用户</title>
+<link rel="stylesheet" href="css/pure-min.css">
+<!--[if lte IE 8]>
+    <link rel="stylesheet" href="css/grids-responsive-old-ie-min.css">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+	<link rel="stylesheet" href="css/grids-responsive-min.css">
+<!--<![endif]-->
+</head>
+<body>
+	<form class="pure-form pure-form-aligned" method="post" action="User?action=reg" >
+    <fieldset>
+    <legend>添加用户</legend>
+        <div class="pure-control-group">
+            <label for="txtLoginName">用户名</label>
+            <input id="txtLoginName" required name="loginName" type="text" placeholder="用户名" />
+        </div>
+
+        <div class="pure-control-group">
+            <label for="txtPassword">密码</label>
+            <input id="txtPassword" required name="password" type="password" placeholder="密码" />
+        </div>
+
+        <div class="pure-control-group">
+            <label for="txtFullName">姓名</label>
+            <input id="txtFullName" name="fullName" type="text" placeholder="姓名" />
+        </div>
+
+        <div class="pure-control-group">
+            <label for="txtGender">性别</label>
+            <input id="txtGender" name="gender" type="text" placeholder="性别" />
+        </div>
+		<div class="pure-control-group">
+            <label for="txtBirthDate">出生日期</label>
+            <input id="txtBirthDate" name="birthDate" type="text" placeholder="出生日期" />
+        </div>
+        <div class="pure-controls">
+            <button type="submit" class="pure-button pure-button-primary">注册</button>
+        </div>
+    </fieldset>
+</form>
+</body>
+</html>

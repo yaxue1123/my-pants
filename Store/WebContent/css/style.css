@@ -1,0 +1,51 @@
+
+#smallpic {
+	margin:0px;
+	padding:0px;
+	width:200px;
+	position: relative;
+	float:left;
+	margin:10px;
+	-webkit-box-shadow:0 0 10px #333;
+	-moz-box-shadow:0 0 10px #333;
+	box-shadow: 0 0 10px #333;
+}
+
+#smallpic img {
+	max-width: 200px;
+}
+
+.mark {
+	margin:0px;
+	padding:0px;
+	width:100px;
+	height:100px;
+	position: absolute;
+	left:0px;
+	top:0px;
+	background:#fff;
+	filter:alpha(opacity:30);
+	opacity:0.3;
+	display:none;
+}
+
+#bigpic {
+	margin:0px;
+	padding:0px;
+	width:400px;
+	height:400px;
+	float:left;
+	margin:10px;
+	display:none;
+	overflow: hidden;
+	position: relative;
+	-webkit-box-shadow:0 0 10px #333;
+	-moz-box-shadow:0 0 10px #333;
+	box-shadow: 0 0 10px #333;
+}
+
+#bigpic img {
+	position:absolute;
+	left:0px;
+	top:0px;
+}

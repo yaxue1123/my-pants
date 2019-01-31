@@ -4,7 +4,7 @@ This a web-based E-commerce platform focuses on pants business, categorizes prod
 
 ## Technology Stack
 
-MCV, JSP, Java, MySQL, HTML, CSS, Bootstrap.
+MCVC JSP, Java, MySQL, HTML, CSS, Bootstrap.
 
 ## Get Started
 
